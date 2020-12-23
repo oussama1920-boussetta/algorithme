@@ -1,0 +1,42 @@
+Algorithme chaine
+var 
+phrase :String;
+longeur:Integer;
+nb_mot:Integer;
+nb_vo:Integer;
+
+vo
+espace:
+
+Begin
+
+Read (phrase); 
+
+longeur:= strlen(phrase);
+
+for (i=0 ;i<length(phrase);i++)do 
+Begin
+
+if (phrase[i]==' ') then 
+Begin
+nb_mot++;
+
+end;
+
+if (phrase[i]=='a' || phrase[i]=='e' || phrase[i]=='i'|| phrase[i]=='o'|| phrase[i]=='v' || phrase[i]=='y') then 
+Begin
+nb_vo++
+
+end;
+
+
+end;
+
+print (longeur);
+
+print (nb_mot);
+print (nb_vo);
+end
+
+
+
